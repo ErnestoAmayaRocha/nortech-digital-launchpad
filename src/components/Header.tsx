@@ -1,11 +1,18 @@
 import { useState, useEffect } from "react";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Sun, Moon } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { useTheme } from "next-themes";
 import nortechLogo from "@/assets/nortech-logo.png";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const { theme, setTheme } = useTheme();
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -22,6 +29,10 @@ const Header = () => {
   ];
 
   const whatsappLink = "https://wa.me/526181413614?text=Hola,%20me%20interesa%20cotizar%20un%20proyecto";
+
+  const toggleTheme = () => {
+    setTheme(theme === "dark" ? "light" : "dark");
+  };
 
   return (
     <header
@@ -49,6 +60,22 @@ const Header = () => {
                 {link.label}
               </a>
             ))}
+            
+            {/* Theme Toggle */}
+            {mounted && (
+              <button
+                onClick={toggleTheme}
+                className="p-2 rounded-full bg-muted hover:bg-muted/80 transition-colors"
+                aria-label="Cambiar tema"
+              >
+                {theme === "dark" ? (
+                  <Sun size={20} className="text-foreground" />
+                ) : (
+                  <Moon size={20} className="text-foreground" />
+                )}
+              </button>
+            )}
+            
             <Button variant="hero" size="default" asChild>
               <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
                 Cotiza ahora
@@ -57,12 +84,27 @@ const Header = () => {
           </nav>
 
           {/* Mobile Menu Button */}
-          <button
-            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="md:hidden text-foreground p-2"
-          >
-            {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
-          </button>
+          <div className="md:hidden flex items-center gap-2">
+            {mounted && (
+              <button
+                onClick={toggleTheme}
+                className="p-2 rounded-full bg-muted hover:bg-muted/80 transition-colors"
+                aria-label="Cambiar tema"
+              >
+                {theme === "dark" ? (
+                  <Sun size={20} className="text-foreground" />
+                ) : (
+                  <Moon size={20} className="text-foreground" />
+                )}
+              </button>
+            )}
+            <button
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              className="text-foreground p-2"
+            >
+              {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+            </button>
+          </div>
         </div>
 
         {/* Mobile Menu */}
