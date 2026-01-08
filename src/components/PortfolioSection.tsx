@@ -9,25 +9,25 @@ const portfolioItems = [
       {
         name: "Cognify",
         url: "https://ernestoamayarocha.github.io/cognify/",
-        description: "Landing page moderna para empresa de inteligencia artificial y tecnología cognitiva.",
-        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=400&fit=crop",
+        description: "Landing page moderna para consultorio de psicología.",
+        image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=600&h=400&fit=crop",
       },
       {
         name: "Bebeleche",
         url: "https://ernestoamayarocha.github.io/Bebeleche-Front/",
-        description: "Página de presentación para restaurante con diseño vibrante y apetitoso.",
-        image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop",
+        description: "Página de presentación para museo de la ciudad de Durango.",
+        image: "https://images.unsplash.com/photo-1518998053901-5348d3961a04?w=600&h=400&fit=crop",
       },
       {
         name: "Bitravel",
         url: "https://www.bitravel.app/",
-        description: "Plataforma de viajes con interfaz intuitiva para reservaciones y experiencias.",
+        description: "Página web para potenciar el turismo con inteligencia artificial.",
         image: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=600&h=400&fit=crop",
       },
       {
         name: "ADN Creativo",
         url: "https://adn-creativo-landing-page-vue.vercel.app/",
-        description: "Agencia creativa con diseño bold y portafolio interactivo.",
+        description: "Página web para agencia de marketing en la ciudad de Durango.",
         image: "https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=600&h=400&fit=crop",
       },
     ],
@@ -47,10 +47,16 @@ const portfolioItems = [
     category: "Catálogos",
     projects: [
       {
-        name: "HADAR Catálogo",
+        name: "HADAR",
         url: "https://ernestoamayarocha.github.io/HADAR-CATALOGO/#sa",
-        description: "Catálogo digital de productos con navegación fluida y diseño elegante.",
-        image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=600&h=400&fit=crop",
+        description: "Catálogo digital de joyería.",
+        image: "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=600&h=400&fit=crop",
+      },
+      {
+        name: "Fan12",
+        url: "https://sparkly-licorice-be4a1e.netlify.app/",
+        description: "Catálogo de jerseys de fútbol.",
+        image: "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=600&h=400&fit=crop",
       },
     ],
   },
@@ -58,15 +64,9 @@ const portfolioItems = [
     category: "Rediseños Web",
     projects: [
       {
-        name: "Sparkly Project",
-        url: "https://sparkly-licorice-be4a1e.netlify.app/",
-        description: "Rediseño completo de sitio web con enfoque en experiencia de usuario moderna.",
-        image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
-      },
-      {
         name: "MGA Contratista",
         url: "https://www.mgacontratista.mx/",
-        description: "Sitio profesional para empresa de construcción con galería de proyectos.",
+        description: "Sitio profesional para empresa de construcción y minería.",
         image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&h=400&fit=crop",
       },
     ],
