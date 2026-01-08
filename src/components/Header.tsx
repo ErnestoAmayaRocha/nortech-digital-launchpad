@@ -21,7 +21,7 @@ const Header = () => {
     { label: "Proceso", href: "#proceso" },
   ];
 
-  const whatsappLink = "https://wa.me/5215512345678?text=Hola,%20me%20interesa%20cotizar%20un%20proyecto";
+  const whatsappLink = "https://wa.me/526181413614?text=Hola,%20me%20interesa%20cotizar%20un%20proyecto";
 
   return (
     <header
