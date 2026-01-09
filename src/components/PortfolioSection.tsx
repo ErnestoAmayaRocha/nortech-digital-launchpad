@@ -2,6 +2,16 @@ import { ExternalLink } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 
+import cognifyImg from "@/assets/cognify.png";
+import bebelecheImg from "@/assets/bebeleche.png";
+import bitravelImg from "@/assets/bitravel.png";
+import adnImg from "@/assets/bitravel.png";
+import hadarImg from "@/assets/hadar.png";
+import fan12Img from "@/assets/fan12.png";
+import mgaImg from "@/assets/mga.png";
+
+
+
 const portfolioItems = [
   {
     category: "Landing Pages",
@@ -10,25 +20,25 @@ const portfolioItems = [
         name: "Cognify",
         url: "https://ernestoamayarocha.github.io/cognify/",
         description: "Landing page moderna para consultorio de psicología.",
-        image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=600&h=400&fit=crop",
+        image: cognifyImg,
       },
       {
         name: "Bebeleche",
         url: "https://ernestoamayarocha.github.io/Bebeleche-Front/",
         description: "Página de presentación para museo de la ciudad de Durango.",
-        image: "https://images.unsplash.com/photo-1518998053901-5348d3961a04?w=600&h=400&fit=crop",
+        image: bebelecheImg,
       },
       {
         name: "Bitravel",
         url: "https://www.bitravel.app/",
         description: "Página web para potenciar el turismo con inteligencia artificial.",
-        image: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=600&h=400&fit=crop",
+        image: bitravelImg,
       },
       {
         name: "ADN Creativo",
         url: "https://adn-creativo-landing-page-vue.vercel.app/",
         description: "Página web para agencia de marketing en la ciudad de Durango.",
-        image: "https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=600&h=400&fit=crop",
+        image: adnImg,
       },
     ],
   },
@@ -50,13 +60,13 @@ const portfolioItems = [
         name: "HADAR",
         url: "https://ernestoamayarocha.github.io/HADAR-CATALOGO/#sa",
         description: "Catálogo digital de joyería.",
-        image: "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=600&h=400&fit=crop",
+        image: hadarImg,
       },
       {
         name: "Fan12",
         url: "https://sparkly-licorice-be4a1e.netlify.app/",
         description: "Catálogo de jerseys de fútbol.",
-        image: "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=600&h=400&fit=crop",
+        image: fan12Img,
       },
     ],
   },
@@ -67,7 +77,7 @@ const portfolioItems = [
         name: "MGA Contratista",
         url: "https://www.mgacontratista.mx/",
         description: "Sitio profesional para empresa de construcción y minería.",
-        image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&h=400&fit=crop",
+        image: mgaImg,
       },
     ],
   },
