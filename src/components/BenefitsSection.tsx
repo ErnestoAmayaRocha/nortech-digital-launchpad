@@ -1,4 +1,4 @@
-import { Check, TrendingUp, Shield, Smartphone, MessageCircle, Rocket } from "lucide-react";
+import { Check, TrendingUp, Shield, Smartphone, MessageCircle, Rocket, Zap, Lock, HeadphonesIcon, Clock } from "lucide-react";
 
 const benefits = [
   {
@@ -20,6 +20,22 @@ const benefits = [
   {
     icon: Rocket,
     text: "Listos para publicar",
+  },
+  {
+    icon: Zap,
+    text: "Carga ultra rápida",
+  },
+  {
+    icon: Lock,
+    text: "Seguridad SSL incluida",
+  },
+  {
+    icon: HeadphonesIcon,
+    text: "Soporte continuo",
+  },
+  {
+    icon: Clock,
+    text: "Entrega en tiempo récord",
   },
 ];
 
