@@ -5,7 +5,7 @@ import { Badge } from "@/components/ui/badge";
 import cognifyImg from "@/assets/cognify.png";
 import bebelecheImg from "@/assets/bebeleche.png";
 import bitravelImg from "@/assets/bitravel.png";
-import adnImg from "@/assets/bitravel.png";
+import adnImg from "@/assets/adn.png";
 import hadarImg from "@/assets/hadar.png";
 import fan12Img from "@/assets/fan12.png";
 import mgaImg from "@/assets/mga.png";
