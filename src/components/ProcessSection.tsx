@@ -106,7 +106,7 @@ const ProcessSection = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              🟧 Inicia tu proyecto con Nortech Digital
+              Inicia tu proyecto con Nortech Digital
             </a>
           </Button>
 
