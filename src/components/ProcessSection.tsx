@@ -5,13 +5,13 @@ const steps = [
     number: "01",
     icon: Search,
     title: "Diagnóstico",
-    description: "Analizamos tu negocio, objetivos y competencia para crear una estrategia digital efectiva.",
+    description: "Analizamos tu negocio, objetivos y competencia para crear una estrategia digital.",
   },
   {
     number: "02",
     icon: PenTool,
     title: "Diseño",
-    description: "Creamos el diseño de tu sitio con revisiones ilimitadas hasta que quedes 100% satisfecho.",
+    description: "Creamos el diseño de tu sitio con revisiones ilimitadas hasta que quedes 100% satisfecho. ",
   },
   {
     number: "03",
