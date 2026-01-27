@@ -51,6 +51,12 @@ const portfolioItems = [
         description: "Invitación digital interactiva para baby shower con animaciones y confirmación de asistencia.",
         image: "https://images.unsplash.com/photo-1519689680058-324335c77eba?w=600&h=400&fit=crop",
       },
+      {
+        name: "Cumpleaños de Lucca",
+        url: "https://cumplelucca.vercel.app/",
+        description: "Invitación digital interactiva con sistema de confirmación de asistencia.",
+        image: "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=600&h=400&fit=crop",
+      },
     ],
   },
   {
